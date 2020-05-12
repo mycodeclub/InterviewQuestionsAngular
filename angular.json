@@ -94,7 +94,16 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "dist/js/jquery.min.js",
+              "dist/bootstrap/js/bootstrap.min.js",
+              "dist/js/adminkit.js",
+              "dist/plugins/raphael/raphael-min.js",
+              "dist/plugins/morris/morris.js",
+              "dist/plugins/functions/dashboard1.js",
+              "dist/plugins/peity/jquery.peity.min.js",
+              "dist/plugins/functions/jquery.peity.init.js"
+            ]
           }
         },
         "lint": {
