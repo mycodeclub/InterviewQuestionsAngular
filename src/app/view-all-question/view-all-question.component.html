@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card-body">
+    <p>view-all-question works!</p>
+  </div>
+</div>
+
+<ul *ngIf="brews">
+  <li *ngFor="let brew of brews">
+    <p><b>Name: </b> {{brew.name}}</p>
+    <p><b>country: </b> {{brew.country}}</p>
+    <p><b>State: </b> {{brew.State}}</p>
+    <p><b>webSite Link: </b> {{brew.website_url}}</p> <a href="{{brew.website_url}}"></a>
+  </li>
+</ul>

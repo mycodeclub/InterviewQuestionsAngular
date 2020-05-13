@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\e2e",
-    "\\src"
+    "\\src",
+    "\\src\\app"
   ],
-  "SelectedNode": "\\angular.json",
+  "SelectedNode": "\\src\\app\\left-menu",
   "PreviewInSolutionExplorer": false
 }
